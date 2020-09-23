@@ -1,0 +1,7 @@
+
+A deque also known as a double ended queue is an ordered collection of items similar
+to the queue.
+It has two ends, a front and a rear and the items remain positioned in the collection.
+What makes a deque different is the unrestrictive nature of adding and removing items 
+New items can be added at the front or the rear.
+Similarly existing items can be removed from the either end.

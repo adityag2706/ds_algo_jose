@@ -1,0 +1,4 @@
+A tree data structure has root , branches and leaves.
+A second propery of trees is that all the children of one node are independent of
+the children of another node
+A third propertly is that each leaf node is unique.

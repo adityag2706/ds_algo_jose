@@ -1,0 +1,25 @@
+Two main instances of recursion -->
+1. When recursion is used as a technique in which a function makes one or more
+calls to itself --> this is what we'll focus on!
+2. When a data structure uses smaller instances of the exact same type of data structure
+when it represents itself.
+Recursion provides a powerful alternative for performing repititions of tasks in which a
+loop is not ideal
+Most modern programming languages support recursion.
+Recursion serves as a great tool for building particular data structures.
+
+Example with using a fcatorial notation..
+
+n! = n.(n-1).(n-2).....3.2.1
+
+if n = 0, then n! = 1
+$1 = 4.3.2.1=24
+
+To state this in a recursive mannder --> need a base case
+
+base case --> n = 0 , n! = 1
+Recursive case --> n! = n*(n-1)!
+
+Memoization
+
+--> read wikipedia page on memoization.

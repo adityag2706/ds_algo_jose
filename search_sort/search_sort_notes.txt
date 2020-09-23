@@ -1,0 +1,32 @@
+Sequential Search:
+
+Basic searching technique , sequentially go through the data structure comparing elements as you go along.
+For example , on an unordered list searching for the element 50
+
+If the list is ordered, we know we only search until we reach an element which is greater than our search
+target.
+For example searching for 50, we can stop at 54 (since 50 is not present)
+
+
+Binary Search
+
+We can take greater advantage of the ordered list
+Instead of searching the list in the sequence, a binary search will start
+by examining the middle item.
+
+A binary search will start by examining the middle item
+If that item is the one we are searching for we are done.
+If the item we are searching for is greater than the middle item, we know that the
+entire lower half of the list as well the middle item can be eliminated from further consideration.
+The item if in the list would be in the upper half.
+We can repeat the process with the upper half. Start at the middle item and compare it against
+what we are looking for.
+Again, we either find it or split the list in half. therefore eliminating another large part of
+our possible search space.
+
+Binary search uses divide and Conquer
+We divide the problem into smaller pieces, solve the smaller pieces in some way and then reassemble the
+whole problem to get the result.
+Each comparison eliminates about half of the remaining items from consideration.
+What is the maximum number of comparisons this algorithm will require to check the entire list?
+--> n / 2^i

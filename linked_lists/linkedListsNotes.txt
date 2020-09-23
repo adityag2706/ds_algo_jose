@@ -1,0 +1,38 @@
+Singly Linked Lists:
+
+A singly linked list, in it's simplest form is a collection of nodes, that collectively
+form a linear sequence.
+Each node stores a reference to an object that is an element of the sequence as well as a reference
+to the next node of the list.
+The list instance maintains a member named head that identifies first node of the list
+In some applications another member named tail identifies the last node of the list.
+
+The first and last node of a linked list are known as head and tail of the list
+We can identify the tail as the node having None as it's next reference
+This process is commonly known as traversing the linked list.
+
+Because the next reference of a node can be viewed as a link or pointer to another node
+the process of traversing a list is also known as link hopping or pointer hopping.
+
+Each node is represented as a unique object, with that instance storing a reference to it's
+element and a reference to the next node.(or None)
+
+--> No predetermined size
+--> When adding at head need ot insert the element and update pointer and head
+--> Remove head is simple; jsut remove the element and reference new head
+--> Removing Tail is complicated..as you need to know the n -1 element
+For removing tail it is better achieved by doing doubly linked list.
+
+Doubly Linked Lists:
+
+In a doubly linked list we define a linked list in which each node keeps an
+explicity reference to the node before it and a reference to the node after it
+These lists allow a greater variety of O(1)-time update operations, including insertions
+and deletions.
+We continue to use the term nect for the reference to the node that follows another.
+We have a new term "prev" for the reference to the node that precedes it.
+
+We add special nodes at both ends of the list
+ a header node at the beginning of the list
+ A trailer node at the end of the list.
+ These "dummy" nodes are known as sentinels. (or guards)

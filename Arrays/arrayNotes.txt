@@ -1,0 +1,34 @@
+Low level arrays
+
+
+Memory of a computer stored in bits
+Typical unit is byte, which is 8 bits
+Computers typically use a memory address
+Each byte associated with unique address
+
+Computer's main memory performs as random access memory RAM
+Just as easy to retrieve byte #867929 as it is to retrieve byte #309
+Individual byte of memory can be stored or retrieved in O(1) time.
+
+Array --> group of related variables stored one after the other in a contiguous
+portion of the computer's memory
+Test string --> stored as an ordered sequence of individual character,s
+In Python Unicode character --> 16 bits (2 bytes)
+
+Any cell of an array can be accessed in constant time --> O(1)
+
+
+Referrential Arrays -- (arrays that use object references)
+Each element is a reference to the object
+This howq python generally creates lists.
+It allows python to make sure all the elements in the list are of the same size(bytes)
+which allows it to find the exact position based on the index given.
+
+
+
+Dynamic Arrays
+
+--> In dynamic arrays you don't need to specify how big an array is beforehand.
+
+--> in python lists often have more capacity than the current length
+If elements keep getting appended this extra space runs out.
